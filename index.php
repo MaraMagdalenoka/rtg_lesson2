@@ -36,15 +36,43 @@
         </form>
     </div>
 </nav>
+
 <div class="container">
     <div class="row">
         <div class="col">
-            <h1>Mājaslapas piemērs</h1>
+            <h1>Ieiešanas piemērs</h1>
         </div>
     </div>
     <div class="row">
         <div class="col">
-            <form method="post" action="action.php">
+            <form method="post" action="login.php">
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="lemail">Email</label>
+                        <input type="lemail" class="form-control" id="lemail" name="lemail">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="lpassword">Password</label>
+                        <input type="password" class="form-control" id="lpassword" name="lpassword">
+                    </div>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Sign in</button>
+            </form>
+            <br>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h1>Reģistrācijas piemērs</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <form method="post" action="register.php">
                 <div class="form-row">
                     <div class="form-group col-md-6">
                         <label for="name">Name</label>
@@ -66,7 +94,7 @@
                     </div>
                 </div>
 
-                <button type="submit" class="btn btn-primary">Sign in</button>
+                <button type="submit" class="btn btn-primary">Register</button>
             </form>
         </div>
     </div>
